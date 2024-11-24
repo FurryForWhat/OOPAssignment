@@ -10,7 +10,7 @@ import java.util.function.DoubleToLongFunction;
 public class Movie {
     static int MovieCount = 0;
     public static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    static  Movie[] movieList = new Movie[100];
+    static  Movie[] movieList = new Movie[10];
     protected String movieName;
     private String genre;
     private int avaliableSeat;
@@ -64,8 +64,6 @@ public class Movie {
                     System.out.println(index+" "+movie.movieName);
                     index ++;
                 }
-
-
             }
         }
     }
